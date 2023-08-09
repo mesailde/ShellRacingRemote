@@ -9,14 +9,18 @@ you can put sensors like accelerometers,gyros,joysticks whatever you like
 ```
 Controlling the car in all directions including combinations like up+left
 Robust connection and scanning
-```
-## What does NOT works?
-```
-Turbo button?
-Getting the battery status
+Turbo button is working
+Lights also if supported by car
+Battery percentage is printed every 60sec in the UART
 ```
 
 ## How to compile?
 ```
 You can use platformio or Arduino IDE(make sure you don't have third party BLE libraries)
+```
+
+## Links
+```
+https://gist.github.com/scrool/e79d6a4cb50c26499746f4fe473b3768
+https://github.com/tmk907/RacingCarsController/tree/master
 ```
